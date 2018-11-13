@@ -1,0 +1,92 @@
+h1{
+	font-size: 100px;
+}
+
+header{
+	padding-top: 230px;
+	padding-bottom: 40px;
+	background-color: black;
+
+	font-size: 25px;
+
+}
+
+.Home{
+	display: block;
+	text-decoration: none;
+}
+
+.Jumbo{
+	display: block;
+	padding-top: 80px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+}
+
+.universe{
+	width: 100px;
+	height: 50px;
+
+	/* The universe is black */
+	background-color: black;
+}
+
+
+
+
+#sun {
+    position: absolute;
+    /* Positions the top-left corner of the image to be *
+    /* in the middle of the box */
+    top: 50%;
+    left: 50%;
+
+
+    /* Play with these numbers to see what it does */
+    height: 100px;
+    width: 100px;
+    margin-top: -90px;
+    margin-left: -100px;
+}
+
+#earth {
+    position: absolute;
+    top: 0;
+    left: 50%;
+
+    height: 30px;
+    width: 30px;
+    margin-left: -25px;
+    margin-top: -25px;
+}
+
+#earth-orbit {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+
+    width: 500px;
+    height: 500px;
+    margin-top: -215px;
+    margin-left: -250px;
+
+    border-width: 2px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
+
+     -webkit-animation: spin-right 10s linear infinite;
+  animation: spin-right 10s linear infinite;
+}
+
+@-webkit-keyframes spin-right {
+  100% {
+      -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-right {
+    100% {
+        transform: rotate(360deg);
+    }

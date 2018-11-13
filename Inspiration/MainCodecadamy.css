@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.jumbotron {
+  background-image:url('http://www.graphicxtras.com/images2/binary-code-pattern.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav li {
+  display: inline;
+}
